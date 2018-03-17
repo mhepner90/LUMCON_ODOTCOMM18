@@ -16,9 +16,6 @@ output: html_document
 | Foundation species | Marsh        | 
 | Invasive           | Nutria       |
 
-## R Markdown
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
@@ -51,8 +48,8 @@ Data reference: Seleman et al. 2014 <https://www.researchgate.net/publication/26
 
 #Saltmarsh Vegetarian 
 Data reference: Coral Reef Monitoring Program  <https://cims.coastal.louisiana.gov/fulltableexports.aspx> 
-```{r Vegetation}
-
+```{r Saltmarsh Vegetation}
+marsh = read_csv("data/XXX.csv")
 ```
 
 #Oytster reefs 
@@ -79,7 +76,9 @@ Species: Black Snapper, Blackfin Snapper, Gray Snapper, Lane Snapper, Mutton Sna
 ```{r Snappers}
 snappers = read_csv("data/snapper_nmfs.csv")
 ```
+
 #Saltmarsh Ecotone Infographic 
+Code from marinebon <https://github.com/marinebon/infographiq> 
 ```{r Infographic}
 
 ```
