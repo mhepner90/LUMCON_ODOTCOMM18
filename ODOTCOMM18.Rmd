@@ -81,4 +81,8 @@ snappers = read_csv("data/snapper_nmfs.csv")
 Code from marinebon <https://github.com/marinebon/infographiq> 
 ```{r Infographic}
 
+svg_elements = read_csv("svg_elements.csv")
+plot_indicators = read_csv("plot_indicators.csv")
+
+
 ```
