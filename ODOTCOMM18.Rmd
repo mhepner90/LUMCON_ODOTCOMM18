@@ -5,26 +5,81 @@ date: "March 16, 2018"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+| Classification     | Icon         | Metric | Data |
+|:-------------------|--------------|--------|------|
+| Focal species      | Blue Crab    | 
+| Focal species      | Shrimp       |
+| Focal              | Birds        |
+| Focal              | D. Terrapin  | 
+| Focal              | Snappers     |
+| Foundation species | Oyster Reefs |
+| Foundation species | Marsh        | 
+| Invasive           | Nutria       |
 
 ## R Markdown
-
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 
-```{r cars}
-summary(cars)
+library(tidyverse)
+library(vegan)
+library(infographiq)
+library(ggplot2)
+
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+#Blue Crabs 
+Data refernce: NMFS Science and Technology <https://www.st.nmfs.noaa.gov/pls/webpls/MF_ANNUAL_LANDINGS.RESULTS> 
+```{r Blue Crabs}
+blue_crab = read_csv("data/crabs_nmfs.csv") 
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+#Shrimp 
+Data reference: NMFS Science and Technology <https://www.st.nmfs.noaa.gov/pls/webpls/MF_ANNUAL_LANDINGS.RESULTS>
+Species: Brown Shrimp, Pink Shrimp, Rock Shrimp, Royal Red Shrimp, Seabob Shrimp, White Shrimp, Roughneck Shrimp
+
+```{r Shrimp}
+shrimp = read_csv("data/shrimp_nmfs.csv") 
+```
+
+#Diamondback Terrapin Turtle 
+Data reference: Seleman et al. 2014 <https://www.researchgate.net/publication/269112701_Distribution_and_Abundance_of_Diamondback_Terrapins_Malaclemys_terrapin_in_Southwestern_Louisiana> 
+```{r Terrapin}
+
+```
+
+#Saltmarsh Vegetarian 
+Data reference: Coral Reef Monitoring Program  <https://cims.coastal.louisiana.gov/fulltableexports.aspx> 
+```{r Vegetation}
+
+```
+
+#Oytster reefs 
+Data reference: NMFS Science and Technology <https://www.st.nmfs.noaa.gov/pls/webpls/MF_ANNUAL_LANDINGS.RESULTS>
+```{r Oyster Reefs}
+oyster = read_csv("data/oyster_nmfs.csv")
+```
+
+#Birds
+Data reference: ebirds 
+```{r Birds}
+
+```
+
+#Nutria 
+Data reference:
+```{ Nutria}
+
+```
+
+#Snappers
+Data reference: NMFS Science and Technology
+Species: Black Snapper, Blackfin Snapper, Gray Snapper, Lane Snapper, Mutton Snapper, Queen Snapper, Red Snapper, Silk Snapper, Vermilion Snapper, Yellowtail Snapper
+```{r Snappers}
+snappers = read_csv("data/snapper_nmfs.csv")
+```
+#Saltmarsh Ecotone Infographic 
+```{r Infographic}
+
+```
