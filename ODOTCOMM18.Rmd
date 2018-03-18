@@ -142,4 +142,6 @@ Saltmarsh_ecoton_infographic = create_info_site(
   preview_site = T
   )
 
+trial2 = create_info_site(site_title = "trial", render_modals = T)
+
 ```
