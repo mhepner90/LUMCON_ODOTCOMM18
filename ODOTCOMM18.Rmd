@@ -23,6 +23,15 @@ library(tidyverse)
 library(vegan)
 library(infographiq)
 library(ggplot2)
+library(brew)
+library(dygraphs)
+library(lubridate)
+library(servr)
+library(stringr)
+library(tools)
+library(xts)
+library(RColorBrewer)
+library(geojsonio)
 
 ```
 
@@ -107,7 +116,7 @@ Code from marinebon <https://github.com/marinebon/infographiq>
 #plot_indicators = read_csv("plot_indicators.csv")
 
 Saltmarsh_ecoton_infographic = create_info_site(
-  path_root = ".",
+  path_root = ".", #"." #/Users/debbiehepner/Documents/github/LUMCON/
   dir_svg = "svg",
   elements_csv = "svg_elements.csv",
   indicators_csv = "plot_indicators.csv",
