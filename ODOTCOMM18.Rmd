@@ -27,6 +27,7 @@ library(brew)
 library(dygraphs)
 library(lubridate)
 library(servr)
+library(rmarkdown)
 library(stringr)
 library(tools)
 library(xts)
@@ -47,12 +48,6 @@ Species: Brown Shrimp, Pink Shrimp, Rock Shrimp, Royal Red Shrimp, Seabob Shrimp
 
 ```{r Shrimp}
 shrimp = read_csv("data/shrimp_nmfs.csv") 
-```
-
-#Diamondback Terrapin Turtle 
-Data reference: Seleman et al. 2014 <https://www.researchgate.net/publication/269112701_Distribution_and_Abundance_of_Diamondback_Terrapins_Malaclemys_terrapin_in_Southwestern_Louisiana> 
-```{r Terrapin}
-
 ```
 
 #Saltmarsh Vegetarian 
@@ -92,6 +87,12 @@ Data reference: ebirds
 
 ```
 
+#Diamondback Terrapin Turtle 
+Data reference: Seleman et al. 2014 <https://www.researchgate.net/publication/269112701_Distribution_and_Abundance_of_Diamondback_Terrapins_Malaclemys_terrapin_in_Southwestern_Louisiana> 
+```{r Terrapin}
+
+```
+
 #Nutria 
 Data reference:
 ```{ Nutria}
@@ -115,33 +116,6 @@ Code from marinebon <https://github.com/marinebon/infographiq>
 #svg_elements = read_csv("svg_elements.csv")
 #plot_indicators = read_csv("plot_indicators.csv")
 
-Saltmarsh_ecoton_infographic = create_info_site(
-  path_root = ".", #"." #/Users/debbiehepner/Documents/github/LUMCON/
-  dir_svg = "svg",
-  elements_csv = "svg_elements.csv",
-  indicators_csv = "plot_indicators.csv",
-  site_title = "Louisiana Saltmarsh Ecotone Infographic",
-  dir_rmd = "rmd",
-  dir_web = "docs",
-  svg_paths = list.files(file.path(path_root, dir_svg), ".*\\.svg$", full.names = T),
-  svg_names = tools::file_path_sans_ext(basename(svg_paths)),
-  site_yml_brew = system.file("site_template/_site.yml.brew",
-  package =
-  "infographiq"),
-  index_md_brew = system.file("site_template/index.md.brew",
-  package = "infographiq"),
-  readme_md_brew = system.file("site_template/README.md.brew", package =
-  "infographiq"),
-  header = system.file("site_template/_header.html", package =
-  "infographiq"),
-  footer = system.file("site_template/_footer.html", package =
-  "infographiq"),
-  styles_css = system.file("site_template/styles.css", package
-  = "infographiq"),
-  render_modals = T,
-  preview_site = T
-  )
-
-trial2 = create_info_site(site_title = "trial", render_modals = T)
+Saltmarsh_ecoton_infographic = create_info_site(site_title = "Louisiana Saltmarsh Ecotone Infographic", render_modals = T, preview_site = T)
 
 ```

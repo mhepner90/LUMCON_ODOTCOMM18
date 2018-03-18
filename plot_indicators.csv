@@ -11,7 +11,7 @@ Invasive,phragmites,Phragmites Mean Percent Cover,NA,Year,percent_cover_mean,NA,
 Foundation,black_mangroves,Black Mangrove Percent Cover,NA,Year,percent_cover_mean,NA,Mean Percent Cover,NA,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/black_mangroves_summarized.csv,NA ,NA ,NA,NA
 Focal,diamondback_terrapin,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
 Foundation,oyster_reef,Commercial Oyster Reef Landings,NA,Year,Pounds,NA,Pounds,NA,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/oyster_nmfs.csv,NA ,NA ,NA,NA
-Foundation,oyster_reef,Commercial Oyster Reef Landings,NA,Year,Dollars,NA,U.S. Dollars,NA,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/oyster_nmfs.csv,NA ,NA ,NA,NA
+Foundation,oyster_reef,Commercial Oyster Reef Landings,NA,Year,Dollars,NA,U.S. Dollars,NA,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/oyster_nmfs.csv,NA ,NA ,oyster_reef_caption.Rmd,NA
 Focal,red_snapper,Commercial Snapper Landings,NA,Year,Pounds,NA,Pounds,Species,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/snapper_nmfs.csv,NA ,NA ,NA,NA
 Focal,red_snapper,Commercial Snapper Landings,NA,Year,Dollars,NA,U.S. Dollars,Species,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/snapper_nmfs.csv,NA ,NA ,NA,NA
 Focal,red_drum,Commercial Red and Black Drum Landings,NA,Year,Pounds,NA,Pounds,Species,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/drums_nmfs.csv,NA ,NA ,NA,NA

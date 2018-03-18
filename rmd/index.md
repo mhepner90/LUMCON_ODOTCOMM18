@@ -1,5 +1,5 @@
 ---
-title: "trial"
+title: "Louisiana Saltmarsh Ecotone Infographic"
 ---
 
 Welcome!

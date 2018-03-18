@@ -1,8 +1,8 @@
-name: "trial"
+name: "Louisiana Saltmarsh Ecotone Infographic"
 output_dir: "../docs"
 lib_dir: libs
 navbar:
-  title: "trial"
+  title: "Louisiana Saltmarsh Ecotone Infographic"
   left:
     - text: "Home"
       href: index.html
