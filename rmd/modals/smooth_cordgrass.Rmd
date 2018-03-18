@@ -1,0 +1,33 @@
+---
+output:
+html_document:
+self_contained: false
+lib_dir: "libs"
+fig_height: 2
+fig_width: 4
+params:
+element: "smooth_cordgrass"
+---
+
+```{r, echo=FALSE, message=F, warning=F}
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
+library(infographiq)
+```
+
+<base target="_parent">
+
+```{r}
+tryCatch(
+    plot_timeseries(
+        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/vegetation_summarized.csv",
+        title   = "Salt Marsh Species Mean Percent Cover",
+        y_label = "Mean Percent Cover",
+        skip    = 0,
+        filter  = NULL,
+        col_t   = "Year",
+        col_y   = "percent_cover_mean",
+        group_by= "Common_Name"
+    ),
+    error = function(e) e
+)
+```

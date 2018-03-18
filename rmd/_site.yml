@@ -1,0 +1,22 @@
+name: "trial"
+output_dir: "../docs"
+lib_dir: libs
+navbar:
+  title: "trial"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "saltmarsh_ecotone"
+      href: saltmarsh_ecotone.html
+  right:
+    - icon: fa-info-circle fa-lg
+      href: "README.html"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      in_header: _header.html
+      after_body: _footer.html
+    css: styles.css
+exclude: ["prep.Rmd"]
