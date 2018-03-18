@@ -89,11 +89,14 @@ Data reference:
 
 ```
 
-#Snappers
+#Fish
 Data reference: NMFS Science and Technology
-Species: Black Snapper, Blackfin Snapper, Gray Snapper, Lane Snapper, Mutton Snapper, Queen Snapper, Red Snapper, Silk Snapper, Vermilion Snapper, Yellowtail Snapper
-```{r Snappers}
+Snapper Species: Black Snapper, Blackfin Snapper, Gray Snapper, Lane Snapper, Mutton Snapper, Queen Snapper, Red Snapper, Silk Snapper, Vermilion Snapper, Yellowtail Snapper
+Drums: Red Drum, Black Drum 
+```{r Fish}
 snappers = read_csv("data/snapper_nmfs.csv")
+
+drums = read_csv("data/drums_nmfs.csv")
 ```
 
 #Saltmarsh Ecotone Infographic 
