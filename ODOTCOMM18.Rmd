@@ -106,5 +106,8 @@ Code from marinebon <https://github.com/marinebon/infographiq>
 svg_elements = read_csv("svg_elements.csv")
 plot_indicators = read_csv("plot_indicators.csv")
 
+infographiq::create_info_site(
+    render_modals = T
+)
 
 ```
