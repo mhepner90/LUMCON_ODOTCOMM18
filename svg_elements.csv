@@ -8,7 +8,7 @@ saltmarsh_ecotone.svg,smooth_cordgrass,Salt Marsh Vegetation (foundation species
 saltmarsh_ecotone.svg,phragmites,Phragmites (invasive species),NA,NA,NA,NA
 saltmarsh_ecotone.svg,black_mangroves,Black Mangroves (invasive species),NA,NA,NA,NA
 saltmarsh_ecotone.svg,diamondback_terrapin,Diamondback Terrapin (focal),NA,NA,NA,NA
-saltmarsh_ecotone.svg,oyster_reef,Oyster Reefs (keystone species),NA,NA,NA,NA
+saltmarsh_ecotone.svg,oyster_reef,Oyster Reefs (keystone species),NA,NA,captions/oyster_reef_text.md,NA
 saltmarsh_ecotone.svg,red_snapper,Snappers (focal species),NA,NA,NA,NA
 saltmarsh_ecotone.svg,red_drum,Drums (focal species),NA,NA,NA,NA
 saltmarsh_ecotone.svg,nutria,Nutria (invasive species),NA,NA,NA,NA
