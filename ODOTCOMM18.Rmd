@@ -48,31 +48,26 @@ Data reference: Seleman et al. 2014 <https://www.researchgate.net/publication/26
 
 #Saltmarsh Vegetarian 
 Data reference: Coral Reef Monitoring Program  <https://cims.coastal.louisiana.gov/fulltableexports.aspx> 
+Species: smooth cordgrass, common reed, saltgrass, saltmeadow cordgrass, turtleweed, needlegrass rush
 ```{r Saltmarsh Vegetation}
 
 marsh = read_csv("data/vegetation_common_random_cims_cleaned.csv")
-#Parsed with column specification:
-# cols(
-#   Year = col_integer(),
-#   Collection_Date = col_character(),
-#   Community = col_character(),
-#   Sample_Type = col_character(),
-#   Vegetation_Type = col_character(),
-#   Percent_Cover_Total = col_double(),
-#   Scientific_Name_As_Currently_Recognized = col_character(),
-#   Common_Name_As_Currently_Recognized = col_character(),
-#   Percent_Cover = col_character(),
-#   In_Out = col_character(),
-#   Number_Planted = col_integer(),
-#   Number_Alive = col_integer(),
-#   Organization = col_character(),
-#   Personnel = col_character(),
-#   Comments = col_character())
 
 vegetation = marsh %>%
-  select(Year, Common_Name_As_Currently_Recognized, Scientific_Name_As_Currently_Recognized, Percent_Cover_Total) %>%
-  group_by(Year, Common_Name_As_Currently_Recognized, Scientific_Name_As_Currently_Recognized) %>%
+  select(Year, Common_Name, Scientific_Name, Percent_Cover_Total) %>%
+  group_by(Year, Common_Name, Scientific_Name) %>%
   summarize(percent_cover_mean = mean(Percent_Cover_Total))
+
+write_csv(vegetation, "Data/vegetation_summarized.csv")
+
+black_mangroves = read_csv("data/black_mangroves_cims.csv")
+
+black_mangroves = black_mangroves %>%
+  select(Year, Common_Name, Scientific_Name, Percent_Cover_Total) %>%
+  group_by(Year, Common_Name, Scientific_Name) %>%
+  summarize(percent_cover_mean = mean(Percent_Cover_Total))
+
+write_csv(black_mangroves,"data/black_mangroves_summarized.csv")
 
 ```
 
