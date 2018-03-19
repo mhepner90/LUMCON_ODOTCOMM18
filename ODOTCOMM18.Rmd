@@ -5,16 +5,28 @@ date: "March 16, 2018"
 output: html_document
 ---
 
-| Classification     | Icon         | Metric | Data |
-|:-------------------|--------------|--------|------|
-| Focal species      | Blue Crab    | 
-| Focal species      | Shrimp       |
-| Focal              | Birds        |
-| Focal              | D. Terrapin  | 
-| Focal              | Snappers     |
-| Foundation species | Oyster Reefs |
-| Foundation species | Marsh        | 
-| Invasive           | Nutria       |
+# Louisiana Saltmarsh Ecotone Infographic 
+
+## Developed by Megan Hepner, Paige Byerly, and Bethann Garramon Merkle during the [LUMCON OCEANDOTCOMM workshop](https://lumcon.edu/oceandotcomm/) 
+
+## Objective: Develop an interactive infographic of the Louisiana bayou saltmarsh ecotone with enganging narrative to depict what the status and trend of key ecosystem species. 
+
+| Species Classification | Icon                 | Metric                | Data    |
+|:-----------------------|----------------------|-----------------------|-------- |
+| Focal                  | Blue CrabS           | pounds, dollars       | NMFS    |
+| Focal                  | Shrimp               | pounds, dollars       | NMFS    |
+| Focal                  | Birds                | diversity, abundance  | eBIRD   |
+| Focal                  | Snappers             | pounds, dollars       | NMFS    |
+| Focal                  | Drums                | pounds, dollars       | NMFS    |
+| Foundation             | Oyster Reefs         | pounds, dollars       | CIMS    |
+| Foundation             | Marsh grass          | Mean percent cover    | CIMS    |
+| Foundation             | Black Mangrove       | Mean percent cover    | CIMS    |
+| Invasive               | Nutria               | Harvested tail        |         |
+| Focal                  | Diamondback Terrapin | NA                    | No data |
+| Focal                  | Bottlenose dolphin   | NA                    | No data |
+| Focal                  | Cocahoe              | NA                    | No data |
+| Focal                  | Fidler crab          | NA                    | No dara |
+| Focal                  | Periwinkle snails    | NA                    | No data | 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -84,12 +96,6 @@ oyster = read_csv("data/oyster_nmfs.csv")
 #Birds
 Data reference: ebirds 
 ```{r Birds}
-
-```
-
-#Diamondback Terrapin Turtle 
-Data reference: Seleman et al. 2014 <https://www.researchgate.net/publication/269112701_Distribution_and_Abundance_of_Diamondback_Terrapins_Malaclemys_terrapin_in_Southwestern_Louisiana> 
-```{r Terrapin}
 
 ```
 
