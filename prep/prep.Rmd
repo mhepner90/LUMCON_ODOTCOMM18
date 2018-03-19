@@ -1,6 +1,6 @@
 ---
 title: "Prep Infographic Data"
-author: "Ben Best"
+author: "Megan Hepner"
 date: "`r Sys.Date()`"
 output:
   html_document:
@@ -9,6 +9,8 @@ output:
     toc_float: true
     code_folding: hide
 ---
+
+Modified from Ben Best <https://github.com/marinebon/info-fk/blob/master/prep/prep.Rmd> 
 
 ## Load Software
 
@@ -122,21 +124,6 @@ ind_d %>%
   arrange(svg_id, title, region, csv_url) # %>% View()
 ```
 
-## Query taxa groupings
-
-### snapper / grouper ?
-
-Here's any svg_id with the word snapper or grouper in it. Isn't this often thought of as the "snapper grouper complex", so should we aggregate these time series?
-
-```{r}
-ind_d %>%
-  filter(str_detect(svg_id, regex('(snapper|grouper)', ignore_case=T))) %>%
-  group_by(svg_id) %>%
-  summarize(
-    n_rows = n())
-```
-
-
 ## Create Site
 
 ```{r, eval=F}
@@ -144,7 +131,3 @@ load_all('../../infographiq') # reload package from source
 
 create_info_site()
 ```
-
-
-
-...
