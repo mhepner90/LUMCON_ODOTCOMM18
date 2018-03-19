@@ -16,33 +16,37 @@ library(infographiq)
 
 <base target="_parent">
 
-```{r}
+
+```{r out.width='100%'}
 tryCatch(
-    plot_timeseries(
-        csv_tv  = "NA",
-        title   = "NA",
-        y_label = "NA",
-        skip    = 0,
-        filter  = NULL,
-        col_t   = NULL,
-        col_y   = NULL,
-        group_by= NULL
+    plot_dygraph_timeseries(
+        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/nutria_summarized.csv",
+        title   = "Annual Nutria Harvest",
+        y_label = "Number of Tails Collected",
+        col_t   = "Year",
+        col_y   = "Tails_Collected"
+        #skip_lines
+        #group_by  
+        #std_err   
+        #filter
     ),
     error = function(e) e
 )
 ```
 
-```{r}
+
+```{r out.width='100%'}
 tryCatch(
-    plot_timeseries(
-        csv_tv  = "",
-        title   = "",
-        y_label = "",
-        skip    = ,
-        filter  = ,
-        col_t   = ,
-        col_y   = ,
-        group_by= 
+    plot_dygraph_timeseries(
+        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/nutria_summarized.csv",
+        title   = "NA",
+        y_label = "Estimated Herbivory Damage (acres)",
+        col_t   = "Year",
+        col_y   = "Estimated_Herbivory_Damage_acres"
+        #skip_lines
+        #group_by  
+        #std_err   
+        #filter
     ),
     error = function(e) e
 )

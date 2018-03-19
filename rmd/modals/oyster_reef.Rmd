@@ -15,34 +15,41 @@ library(infographiq)
 ```
 
 <base target="_parent">
+#idk
+test
+*LUMCON*
 
-```{r}
+
+```{r out.width='100%'}
 tryCatch(
-    plot_timeseries(
-        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/oyster_nmfs.csv",
+    plot_dygraph_timeseries(
+        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/oyster_nmfs.csv",
         title   = "Commercial Oyster Reef Landings",
         y_label = "Pounds",
-        skip    = 0,
-        filter  = NULL,
         col_t   = "Year",
-        col_y   = "Pounds",
-        group_by= NULL
+        col_y   = "Pounds"
+        #skip_lines
+        #group_by  
+        #std_err   
+        #filter
     ),
     error = function(e) e
 )
 ```
 
-```{r}
+
+```{r out.width='100%'}
 tryCatch(
-    plot_timeseries(
-        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/oyster_nmfs.csv",
+    plot_dygraph_timeseries(
+        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/oyster_nmfs.csv",
         title   = "Commercial Oyster Reef Landings",
         y_label = "U.S. Dollars",
-        skip    = 0,
-        filter  = NULL,
         col_t   = "Year",
-        col_y   = "Dollars",
-        group_by= NULL
+        col_y   = "Dollars"
+        #skip_lines
+        #group_by  
+        #std_err   
+        #filter
     ),
     error = function(e) e
 )

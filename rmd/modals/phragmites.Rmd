@@ -16,17 +16,19 @@ library(infographiq)
 
 <base target="_parent">
 
-```{r}
+
+```{r out.width='100%'}
 tryCatch(
-    plot_timeseries(
-        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/data/vegetation_summarized.csv",
+    plot_dygraph_timeseries(
+        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/vegetation_summarized.csv",
         title   = "Phragmites Mean Percent Cover",
         y_label = "Mean Percent Cover",
-        skip    = 0,
-        filter  = NULL,
         col_t   = "Year",
-        col_y   = "percent_cover_mean",
-        group_by= "Common_Name"
+        col_y   = "percent_cover_mean"
+        #skip_lines
+        , group_by="Common_Name"
+        #std_err   
+        #filter
     ),
     error = function(e) e
 )
