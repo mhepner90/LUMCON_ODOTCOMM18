@@ -2,8 +2,8 @@ Classification_level,svg_id,plot_title,filter,col_t,col_y,std_err,y_label,group_
 Biodiversity,bird_diversity,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
 Focal,rosseate_spoonbill,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
 Indicator,seaside_sparrow,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
-Focal,blue_crabs,Commercial Blue Crabs Pounds,NA,Year,Pounds,NA,Pounds,NA,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/crabs_nmfs.csv,NA ,NA ,NA,NA
-Focal,blue_crabs,Commercial Blue Crabs Dollars,NA,Year,Dollars,NA,U.S. Dollars,NA,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/crabs_nmfs.csv,NA ,NA ,NA,NA
+Focal,blue_crabs,Commercial Blue Crabs Pounds,NA,Year,Pounds,NA,Pounds,NA,https://github.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/crabs_nmfs.csv,NA ,NA ,NA,NA
+Focal,blue_crabs,Commercial Blue Crabs Dollars,NA,Year,Dollars,NA,U.S. Dollars,NA,https://github.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/crabs_nmfs.csv,NA ,NA ,NA,NA
 Focal,shrimp,Commercial Blue Crabs Dollars,NA,Year,Pounds,NA,Pounds,Species,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/shrimp_nmfs.csv,NA ,NA ,NA,NA
 Focal,shrimp,Commercial Blue Crabs Dollars,NA,Year,Dollars,NA,U.S. Dollars,Species,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/shrimp_nmfs.csv,NA ,NA ,NA,NA
 Foundation,smooth_cordgrass,Salt Marsh Species Mean Percent Cover,NA,Year,percent_cover_mean,NA,Mean Percent Cover,Common_Name,https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/vegetation_summarized.csv,NA ,NA ,NA,NA
