@@ -95,8 +95,8 @@ Data reference: Seleman et al. 2014 <https://www.researchgate.net/publication/26
 
 #Nutria 
 Data reference:
-```{ Nutria}
-
+```{r Nutria}
+nutria = read_csv("data/nutria_summarized.csv")
 ```
 
 #Fish
@@ -111,7 +111,7 @@ drums = read_csv("data/drums_nmfs.csv")
 
 #Saltmarsh Ecotone Infographic 
 Code from marinebon <https://github.com/marinebon/infographiq> 
-```{r Infographic}
+```{r Infographic, echo=FALSE}
 
 #svg_elements = read_csv("svg_elements.csv")
 #plot_indicators = read_csv("plot_indicators.csv")
