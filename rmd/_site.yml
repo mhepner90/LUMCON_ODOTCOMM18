@@ -6,8 +6,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "saltmarsh_ecotone"
-      href: saltmarsh_ecotone.html
+    - text: "saltmarsh"
+      href: saltmarsh.html
   right:
     - icon: fa-info-circle fa-lg
       href: "README.html"
