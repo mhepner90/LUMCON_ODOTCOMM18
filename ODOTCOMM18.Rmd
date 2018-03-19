@@ -5,7 +5,7 @@ date: "March 16, 2018"
 output: html_document
 ---
 
-# Louisiana Saltmarsh Ecotone Infographic 
+# Louisiana Saltmarsh Ecotone Interactive Infographic 
 
 ## Developed by Megan Hepner, Paige Byerly, and Bethann Garramon Merkle at [OceanDotComm](https://lumcon.edu/oceandotcomm/), a science commmunication workshop, supported by the Louisiana Universities Marine Consortium (LUMCON). 
 
