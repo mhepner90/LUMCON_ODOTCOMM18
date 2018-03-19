@@ -15,39 +15,3 @@ library(infographiq)
 ```
 
 <base target="_parent">
-
-
-```{r out.width='100%'}
-tryCatch(
-    plot_dygraph_timeseries(
-        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/crabs_nmfs.csv",
-        title   = "Commercial Blue Crabs Pounds",
-        y_label = "Pounds",
-        col_t   = "Year",
-        col_y   = "Pounds"
-        #skip_lines
-        #group_by  
-        #std_err   
-        #filter
-    ),
-    error = function(e) e
-)
-```
-
-
-```{r out.width='100%'}
-tryCatch(
-    plot_dygraph_timeseries(
-        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/crabs_nmfs.csv",
-        title   = "Commercial Blue Crabs Dollars",
-        y_label = "U.S. Dollars",
-        col_t   = "Year",
-        col_y   = "Dollars"
-        #skip_lines
-        #group_by  
-        #std_err   
-        #filter
-    ),
-    error = function(e) e
-)
-```

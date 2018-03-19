@@ -1,12 +1,12 @@
 svg,svg_id,label,status_text,status_color,modal_before,modal_after
 saltmarsh.svg,bird_diversity,Bird Diversity (biodiversity),NA,NA,NA,NA
-saltmarsh.svg,rosseate_spoonbill,Rosseate Spoonbill (focal species),NA,NA,NA,NA
+saltmarsh.svg,rosseate_spoonbill,Roseate Spoonbill (focal species),NA,NA,NA,NA
 saltmarsh.svg,seaside_sparrow,Seaside Sparrow (Indicator species),NA,NA,NA,captions/sparrow.md
 saltmarsh.svg,blue_crabs,Blue Crabs (focal species),NA,NA,NA,NA
 saltmarsh.svg,shrimp,Shrimp (focal species),NA,NA,NA,NA
 saltmarsh.svg,smooth_cordgrass,Salt Marsh Vegetation (foundation species),NA,NA,NA,NA
-saltmarsh.svg,phragmites,Phragmites (invasive species),NA,NA,NA,NA
-saltmarsh.svg,black_mangroves,Black Mangroves (invasive species),NA,NA,NA,NA
+saltmarsh.svg,phragmites,Phragmites (foundation species),NA,NA,NA,NA
+saltmarsh.svg,black_mangroves,Black Mangroves (foundation species),NA,NA,NA,NA
 saltmarsh.svg,diamondback_terrapin,Diamondback Terrapin (focal),NA,NA,NA,captions/terrapin.md
 saltmarsh.svg,oyster_reef,Oyster Reefs (keystone species),NA,NA,captions/oyster_reef_text.md,NA
 saltmarsh.svg,red_snapper,Snappers (focal species),NA,NA,NA,NA
