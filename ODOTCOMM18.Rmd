@@ -114,14 +114,3 @@ snappers = read_csv("data/snapper_nmfs.csv")
 
 drums = read_csv("data/drums_nmfs.csv")
 ```
-
-#Saltmarsh Ecotone Infographic 
-Code from marinebon <https://github.com/marinebon/infographiq> 
-```{r Infographic, echo=FALSE}
-
-#svg_elements = read_csv("svg_elements.csv")
-#plot_indicators = read_csv("plot_indicators.csv")
-
-Saltmarsh_ecoton_infographic = create_info_site(site_title = "Louisiana Saltmarsh Ecotone Infographic", render_modals = T, preview_site = T)
-
-```
