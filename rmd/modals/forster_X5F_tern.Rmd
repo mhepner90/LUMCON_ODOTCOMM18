@@ -1,0 +1,19 @@
+---
+output:
+html_document:
+self_contained: false
+lib_dir: "libs"
+fig_height: 2
+fig_width: 4
+params:
+element: "forster_X5F_tern"
+---
+
+```{r, echo=FALSE, message=F, warning=F}
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
+library(infographiq)
+```
+
+<base target="_parent">
+## Forster’s Tern (*Sterna forsteri*)
+Forster’s terns are a resident Louisiana saltmarsh species, and plunge dive for fish and small arthropods over open water and canals. They are colonial, and sometimes nest on mats of floating marsh vegetation or on top of muskrat lodges. 

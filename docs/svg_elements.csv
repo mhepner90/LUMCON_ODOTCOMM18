@@ -1,19 +1,19 @@
 svg,svg_id,label,status_text,status_color,modal_before,modal_after
 saltmarsh.svg,bird_diversity,Bird Diversity (biodiversity),NA,NA,NA,NA
 saltmarsh.svg,rosseate_spoonbill,Rosseate Spoonbill (focal species),NA,NA,NA,NA
-saltmarsh.svg,seaside_sparrow,Seaside Sparrow (Indicator species),NA,NA,NA,NA
+saltmarsh.svg,seaside_sparrow,Seaside Sparrow (Indicator species),NA,NA,NA,captions/sparrow.md
 saltmarsh.svg,blue_crabs,Blue Crabs (focal species),NA,NA,NA,NA
 saltmarsh.svg,shrimp,Shrimp (focal species),NA,NA,NA,NA
 saltmarsh.svg,smooth_cordgrass,Salt Marsh Vegetation (foundation species),NA,NA,NA,NA
 saltmarsh.svg,phragmites,Phragmites (invasive species),NA,NA,NA,NA
 saltmarsh.svg,black_mangroves,Black Mangroves (invasive species),NA,NA,NA,NA
-saltmarsh.svg,diamondback_terrapin,Diamondback Terrapin (focal),NA,NA,NA,NA
+saltmarsh.svg,diamondback_terrapin,Diamondback Terrapin (focal),NA,NA,NA,captions/terrapin.md
 saltmarsh.svg,oyster_reef,Oyster Reefs (keystone species),NA,NA,captions/oyster_reef_text.md,NA
 saltmarsh.svg,red_snapper,Snappers (focal species),NA,NA,NA,NA
 saltmarsh.svg,red_drum,Drums (focal species),NA,NA,NA,NA
-saltmarsh.svg,nutria,Nutria (invasive species),NA,NA,NA,NA
-saltmarsh.svg,bottlenose_dolphin,Bottlenose Dolphin (focal species),NA,NA,NA,NA
+saltmarsh.svg,nutria,Nutria (invasive species),NA,NA,NA,captions/nutria.md
+saltmarsh.svg,bottlenose_dolphin,Bottlenose Dolphin (focal species),NA,NA,NA,captions/dolphin.md
 saltmarsh.svg,muskrat,Muskrat,NA,NA,NA,NA
-saltmarsh.svg,fiddler_crabs,Fiddler Crabs,NA,NA,NA,NA
-saltmarsh.svg,periwinkle_snails,Periwinkle Snals,NA,NA,NA,NA
-saltmarsh.svg,ribbed_mussle,Ribbed Mussle (foundation species),NA,NA,NA,NA
+saltmarsh.svg,fiddler_crabs,Fiddler Crabs,NA,NA,NA,captions/fiddlercrab.md
+saltmarsh.svg,periwinkle_snails,Periwinkle Snals,NA,NA,NA,captions/snail.md
+saltmarsh.svg,forster_X5F_tern ,Forster's Tern (focal),NA,NA,NA,captions/tern.md

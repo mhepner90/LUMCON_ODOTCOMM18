@@ -20,7 +20,7 @@ library(infographiq)
 ```{r out.width='100%'}
 tryCatch(
     plot_dygraph_timeseries(
-        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/crabs_nmfs.csv",
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/crabs_nmfs.csv",
         title   = "Commercial Blue Crabs Pounds",
         y_label = "Pounds",
         col_t   = "Year",
@@ -38,7 +38,7 @@ tryCatch(
 ```{r out.width='100%'}
 tryCatch(
     plot_dygraph_timeseries(
-        csv_tv  = "https://github.com/mhepner90/LUMCON_ODOTCOMM18/blob/master/prep/data/crabs_nmfs.csv",
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/crabs_nmfs.csv",
         title   = "Commercial Blue Crabs Dollars",
         y_label = "U.S. Dollars",
         col_t   = "Year",
