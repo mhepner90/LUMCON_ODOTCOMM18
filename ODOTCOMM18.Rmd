@@ -5,11 +5,11 @@ date: "March 16, 2018"
 output: html_document
 ---
 
-# Louisiana Saltmarsh Ecotone Interactive Infographic 
+# Louisiana Saltmarsh-Mangrove Ecotone Interactive Infographic 
 
-## Developed by Megan Hepner, Paige Byerly, and Bethann Garramon Merkle at [OceanDotComm](https://lumcon.edu/oceandotcomm/), a science commmunication workshop, supported by the Louisiana Universities Marine Consortium (LUMCON). 
+### Developed by Megan Hepner, Paige Byerly, and Bethann Garramon Merkle at [OceanDotComm](https://lumcon.edu/oceandotcomm/), a science commmunication workshop, supported by the Louisiana Universities Marine Consortium (LUMCON). 
 
-## Objective: Develop an interactive infographic of the Louisiana bayou saltmarsh ecotone with enganging narrative to depict what the status and trend of key ecosystem species. 
+### Objective: Develop an interactive infographic of the Louisiana bayou saltmarsh ecotone with enganging narrative to depict what the status and trend of key ecosystem species. 
 
 | Species Classification | Icon                 | Metric                | Data    |
 |:-----------------------|----------------------|-----------------------|-------- |
@@ -53,7 +53,7 @@ library(geojsonio)
 #Blue Crabs 
 Data refernce: NMFS Science and Technology <https://www.st.nmfs.noaa.gov/pls/webpls/MF_ANNUAL_LANDINGS.RESULTS> 
 ```{r Blue Crabs}
-blue_crab = read_csv("data/crabs_nmfs.csv") 
+blue_crab = read_csv("prep/data/crabs_nmfs.csv") 
 ```
 
 #Shrimp 
@@ -61,7 +61,15 @@ Data reference: NMFS Science and Technology <https://www.st.nmfs.noaa.gov/pls/we
 Species: Brown Shrimp, Pink Shrimp, Rock Shrimp, Royal Red Shrimp, Seabob Shrimp, White Shrimp, Roughneck Shrimp
 
 ```{r Shrimp}
-shrimp = read_csv("data/shrimp_nmfs.csv") 
+shrimp = read_csv("prep/data/shrimp_nmfs.csv") 
+
+commercialized_shrimp = shrimp %>%
+  filter(Species != "Pink Shrimp") %>%
+  filter(Species != "Rock Shrimp") %>%
+  filter(Species != "Royal Red Shrimp")%>%
+  filter(Species != "Roughneck Shrimp")
+
+write_csv(commercialized_shrimp, "prep/data/commercialized_shrimp_nmfs.csv")
 ```
 
 #Saltmarsh Vegetarian 
@@ -69,30 +77,30 @@ Data reference: Coral Reef Monitoring Program  <https://cims.coastal.louisiana.g
 Species: smooth cordgrass, common reed, saltgrass, saltmeadow cordgrass, turtleweed, needlegrass rush
 ```{r Saltmarsh Vegetation}
 
-marsh = read_csv("data/vegetation_common_random_cims_cleaned.csv")
+marsh = read_csv("prep/data/vegetation_common_random_cims_cleaned.csv")
 
 vegetation = marsh %>%
   select(Year, Common_Name, Scientific_Name, Percent_Cover_Total) %>%
   group_by(Year, Common_Name, Scientific_Name) %>%
   summarize(percent_cover_mean = mean(Percent_Cover_Total))
 
-write_csv(vegetation, "Data/vegetation_summarized.csv")
+write_csv(vegetation, "prep/data/vegetation_summarized.csv")
 
-black_mangroves = read_csv("data/black_mangroves_cims.csv")
+black_mangroves = read_csv("prep/data/black_mangroves_cims.csv")
 
 black_mangroves = black_mangroves %>%
   select(Year, Common_Name, Scientific_Name, Percent_Cover_Total) %>%
   group_by(Year, Common_Name, Scientific_Name) %>%
   summarize(percent_cover_mean = mean(Percent_Cover_Total))
 
-write_csv(black_mangroves,"data/black_mangroves_summarized.csv")
+write_csv(black_mangroves,"prep/data/black_mangroves_summarized.csv")
 
 ```
 
-#Oytster reefs 
+#Oytster Reefs 
 Data reference: NMFS Science and Technology <https://www.st.nmfs.noaa.gov/pls/webpls/MF_ANNUAL_LANDINGS.RESULTS>
 ```{r Oyster Reefs}
-oyster = read_csv("data/oyster_nmfs.csv")
+oyster = read_csv("prep/data/oyster_nmfs.csv")
 ```
 
 #Birds
@@ -104,7 +112,7 @@ Data reference: ebirds
 #Nutria 
 Data reference:
 ```{r Nutria}
-nutria = read_csv("data/nutria_summarized.csv")
+nutria = read_csv("prep/data/nutria_summarized.csv")
 ```
 
 #Fish
@@ -112,6 +120,6 @@ Data reference: NMFS Science and Technology
 Snapper Species: Black Snapper, Blackfin Snapper, Gray Snapper, Lane Snapper, Mutton Snapper, Queen Snapper, Red Snapper, Silk Snapper, Vermilion Snapper, Yellowtail Snapper
 Drums: Red Drum, Black Drum 
 ```{r Fish}
-snappers = read_csv("data/snapper_nmfs.csv")
-drums = read_csv("data/drums_nmfs.csv")
+snappers = read_csv("prep/data/snapper_nmfs.csv")
+drums = read_csv("prep/data/drums_nmfs.csv")
 ```

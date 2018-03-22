@@ -19,6 +19,6 @@ Focal,red_x5F_snapper,Annual Commercial Snapper Landings in Pounds,NA,Year,Pound
 Focal,red_x5F_snapper,Annual Commercial Snapper Landings in Dollars ,NA,Year,Dollars,NA,U.S. Dollars,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/snapper_nmfs.csv,NA ,NA ,NA,NA
 Focal,rosseate_x5F_spoonbill,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
 Indicator,seaside_x5F_sparrow,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
-Focal,shrimp,Annual Commercial Shrimp Pounds,"species== ""Borwn Shrimp"", ""White Shrimp"", ""Seabob Shrimp"" ",Year,Pounds,NA,Pounds,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/shrimp_nmfs.csv,NA ,NA ,NA,NA
-Focal,shrimp,Annual Commercial Shrimp Dollars,"species== ""Borwn Shrimp"", ""White Shrimp"", ""Seabob Shrimp"" ",Year,Dollars,NA,U.S. Dollars,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/shrimp_nmfs.csv,NA ,NA ,NA,NA
+Focal,shrimp,Annual Commercial Shrimp Pounds,"Species== ""Borwn Shrimp"", ""White Shrimp"", ""Seabob Shrimp"" ",Year,Pounds,NA,Pounds,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/shrimp_nmfs.csv,NA ,NA ,NA,NA
+Focal,shrimp,Annual Commercial Shrimp Dollars,"Species== ""Borwn Shrimp"", ""White Shrimp"", ""Seabob Shrimp"" ",Year,Dollars,NA,U.S. Dollars,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/shrimp_nmfs.csv,NA ,NA ,NA,NA
 Foundation,smooth_x5F_cordgrass,Smooth Cordgrass (Spartina) Mean Percent Cover,NA,Year,percent_cover_mean,NA,Mean % Cover,Common_Name,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/vegetation_summarized.csv,NA ,NA ,NA,NA
