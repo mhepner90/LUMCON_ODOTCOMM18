@@ -86,6 +86,11 @@ vegetation = marsh %>%
 
 write_csv(vegetation, "prep/data/vegetation_summarized.csv")
 
+spartina = vegetation %>%
+  filter(Common_Name == "smooth cordgrass")
+
+write_csv(spartina, "prep/data/spartina_cims.csv")
+
 black_mangroves = read_csv("prep/data/black_mangroves_cims.csv")
 
 black_mangroves = black_mangroves %>%
