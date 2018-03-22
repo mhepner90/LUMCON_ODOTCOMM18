@@ -20,13 +20,13 @@ library(infographiq)
 ```{r out.width='100%'}
 tryCatch(
     plot_dygraph_timeseries(
-        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/vegetation_summarized.csv",
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/phragmites_cims.csv",
         title   = "Common Reed (Phragmites) Mean Percent Cover",
         y_label = "Mean % Cover",
         col_t   = "Year",
         col_y   = "percent_cover_mean"
         #skip_lines
-        , group_by="Common_Name"
+        #group_by  
         #std_err   
         #filter
     ),

@@ -88,16 +88,17 @@ write_csv(vegetation, "prep/data/vegetation_summarized.csv")
 
 spartina = vegetation %>%
   filter(Common_Name == "smooth cordgrass")
-
 write_csv(spartina, "prep/data/spartina_cims.csv")
 
-black_mangroves = read_csv("prep/data/black_mangroves_cims.csv")
+phragmites = vegetation%>%
+  filter(Common_Name == "common reed")
+write_csv(phragmites, "prep/data/phragmites_cims.csv")
 
+black_mangroves = read_csv("prep/data/black_mangroves_cims.csv")
 black_mangroves = black_mangroves %>%
   select(Year, Common_Name, Scientific_Name, Percent_Cover_Total) %>%
   group_by(Year, Common_Name, Scientific_Name) %>%
   summarize(percent_cover_mean = mean(Percent_Cover_Total))
-
 write_csv(black_mangroves,"prep/data/black_mangroves_summarized.csv")
 
 ```
