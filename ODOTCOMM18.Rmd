@@ -16,6 +16,8 @@ output: html_document
 | Focal                  | Blue CrabS           | pounds, dollars       | NMFS    |
 | Focal                  | Shrimp               | pounds, dollars       | NMFS    |
 | Focal                  | Birds                | diversity, abundance  | eBIRD   |
+| Focal                  | Seaside Sparrow      | abundance             | eBIRD   |
+| Focal                  | Forester's Tern      | abundance             | eBIRD   | 
 | Focal                  | Snappers             | pounds, dollars       | NMFS    |
 | Focal                  | Drums                | pounds, dollars       | NMFS    |
 | Foundation             | Oyster Reefs         | pounds, dollars       | CIMS    |
@@ -111,6 +113,5 @@ Snapper Species: Black Snapper, Blackfin Snapper, Gray Snapper, Lane Snapper, Mu
 Drums: Red Drum, Black Drum 
 ```{r Fish}
 snappers = read_csv("data/snapper_nmfs.csv")
-
 drums = read_csv("data/drums_nmfs.csv")
 ```
