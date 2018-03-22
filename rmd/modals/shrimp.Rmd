@@ -20,8 +20,8 @@ library(infographiq)
 ```{r out.width='100%'}
 tryCatch(
     plot_dygraph_timeseries(
-        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/shrimp_nmfs.csv",
-        title   = "Commercial Blue Crabs Dollars",
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/commercialized_shrimp_nmfs.csv",
+        title   = "Annual Commercial Shrimp Pounds",
         y_label = "Pounds",
         col_t   = "Year",
         col_y   = "Pounds"
@@ -38,8 +38,8 @@ tryCatch(
 ```{r out.width='100%'}
 tryCatch(
     plot_dygraph_timeseries(
-        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/shrimp_nmfs.csv",
-        title   = "Commercial Blue Crabs Dollars",
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/commercialized_shrimp_nmfs.csv",
+        title   = "Annual Commercial Shrimp Dollars",
         y_label = "U.S. Dollars",
         col_t   = "Year",
         col_y   = "Dollars"

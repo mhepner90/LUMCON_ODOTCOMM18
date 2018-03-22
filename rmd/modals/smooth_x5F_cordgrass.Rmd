@@ -20,9 +20,9 @@ library(infographiq)
 ```{r out.width='100%'}
 tryCatch(
     plot_dygraph_timeseries(
-        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/vegetation_summarized.csv",
-        title   = "Salt Marsh Species Mean Percent Cover",
-        y_label = "Mean Percent Cover",
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/spartina_cims.csv",
+        title   = "Smooth Cordgrass (Spartina) Mean Percent Cover",
+        y_label = "Mean % Cover",
         col_t   = "Year",
         col_y   = "percent_cover_mean"
         #skip_lines

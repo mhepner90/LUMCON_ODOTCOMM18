@@ -39,7 +39,7 @@ tryCatch(
 tryCatch(
     plot_dygraph_timeseries(
         csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/nutria_summarized.csv",
-        title   = "NA",
+        title   = "Estimated Herbivory Damage",
         y_label = "Estimated Herbivory Damage (acres)",
         col_t   = "Year",
         col_y   = "Estimated_Herbivory_Damage_acres"

@@ -24,7 +24,7 @@ test
 tryCatch(
     plot_dygraph_timeseries(
         csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/oyster_nmfs.csv",
-        title   = "Commercial Oyster Reef Landings",
+        title   = "Annual Commercial Oyster Reef Landings in Pounds",
         y_label = "Pounds",
         col_t   = "Year",
         col_y   = "Pounds"
@@ -42,7 +42,7 @@ tryCatch(
 tryCatch(
     plot_dygraph_timeseries(
         csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/oyster_nmfs.csv",
-        title   = "Commercial Oyster Reef Landings",
+        title   = "Annual Commercial Oyster Reef Landings in Dollars",
         y_label = "U.S. Dollars",
         col_t   = "Year",
         col_y   = "Dollars"

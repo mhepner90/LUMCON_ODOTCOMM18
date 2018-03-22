@@ -21,8 +21,8 @@ library(infographiq)
 tryCatch(
     plot_dygraph_timeseries(
         csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/vegetation_summarized.csv",
-        title   = "Phragmites Mean Percent Cover",
-        y_label = "Mean Percent Cover",
+        title   = "Common Reed (Phragmites) Mean Percent Cover",
+        y_label = "Mean % Cover",
         col_t   = "Year",
         col_y   = "percent_cover_mean"
         #skip_lines
