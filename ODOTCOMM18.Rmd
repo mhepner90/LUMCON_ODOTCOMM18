@@ -13,7 +13,7 @@ output: html_document
 
 | Species Classification | Icon                 | Metric                | Data    |
 |:-----------------------|----------------------|-----------------------|-------- |
-| Focal                  | Blue CrabS           | pounds, dollars       | NMFS    |
+| Focal                  | Blue Crabs           | pounds, dollars       | NMFS    |
 | Focal                  | Shrimp               | pounds, dollars       | NMFS    |
 | Focal                  | Birds                | diversity, abundance  | eBIRD   |
 | Focal                  | Seaside Sparrow      | abundance             | eBIRD   |

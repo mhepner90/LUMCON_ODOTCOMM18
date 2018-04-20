@@ -28,7 +28,7 @@ tryCatch(
         #skip_lines
         #group_by  
         #std_err   
-        #filter
+        , filter="Species==\"Blue Crab\""
     ),
     error = function(e) e
 )
@@ -46,7 +46,7 @@ tryCatch(
         #skip_lines
         #group_by  
         #std_err   
-        #filter
+        , filter="Species==\"Blue Crab\""
     ),
     error = function(e) e
 )

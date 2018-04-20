@@ -15,9 +15,6 @@ library(infographiq)
 ```
 
 <base target="_parent">
-#idk
-test
-*LUMCON*
 
 
 ```{r out.width='100%'}
