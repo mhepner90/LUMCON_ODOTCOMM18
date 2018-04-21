@@ -1,0 +1,59 @@
+---
+output:
+html_document:
+self_contained: false
+lib_dir: "libs"
+fig_height: 2
+fig_width: 4
+params:
+element: "nutria"
+---
+
+```{r, echo=FALSE, message=F, warning=F}
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
+library(infographiq)
+```
+
+<base target="_parent">
+
+
+```{r out.width='100%'}
+tryCatch(
+    plot_dygraph_timeseries(
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/nutria_summarized.csv",
+        title   = "Annual Nutria Harvest",
+        y_label = "Number of Tails Collected",
+        col_t   = "Year",
+        col_y   = "Tails_Collected"
+        #skip_lines
+        #group_by  
+        #std_err   
+        #filter
+    ),
+    error = function(e) e
+)
+```
+
+
+```{r out.width='100%'}
+tryCatch(
+    plot_dygraph_timeseries(
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/nutria_summarized.csv",
+        title   = "Estimated Herbivory Damage",
+        y_label = "Estimated Herbivory Damage (acres)",
+        col_t   = "Year",
+        col_y   = "Estimated_Herbivory_Damage_acres"
+        #skip_lines
+        #group_by  
+        #std_err   
+        #filter
+    ),
+    error = function(e) e
+)
+```
+## Nutria (*Myocastor coypus*)   
+"Tails collected" represent total number of nutria harvested and submitted to LDWF (November-March) for bounty from 2002-2016. "Estimated herbivory damage" represents amount of marsh damaged by nutria per year. Herbivory damage is reported in acres, and is extrapolated from yearly aerial surveys of wetland transects in coastal Louisiana (defined as the region bounded by the Interstates 10 and 12 from the Texas to Mississippi state lines). 
+
+Introduced nutria contribute to wetland loss by eating the roots of stabilizing grasses, and can rapidly turn healthy marsh into open water. In Louisiana, wetland destruction by nutria was extensive until the initiation of the Coastwide Nutria Control Program in 2002, which pays local trappers to harvest nutria. The program has successfully reduced the amount of damage caused by nutria, and their numbers have stabilized statewide. 
+
+Source: CNCP/CWPRA/LDWF. Information via the Coastwide Nutria Control Program (CNCP), which is overseen by the Louisiana Department of Wildlife and Fisheries (LDWF) and funded through the Coastal Wetlands Planning, Protection, and Restoration Act (CWPPRA) 

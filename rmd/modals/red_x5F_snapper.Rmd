@@ -1,0 +1,53 @@
+---
+output:
+html_document:
+self_contained: false
+lib_dir: "libs"
+fig_height: 2
+fig_width: 4
+params:
+element: "red_x5F_snapper"
+---
+
+```{r, echo=FALSE, message=F, warning=F}
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
+library(infographiq)
+```
+
+<base target="_parent">
+
+
+```{r out.width='100%'}
+tryCatch(
+    plot_dygraph_timeseries(
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/snapper_nmfs.csv",
+        title   = "Annual Commercial Red Snapper Landings in Pounds",
+        y_label = "Pounds",
+        col_t   = "Year",
+        col_y   = "Pounds"
+        #skip_lines
+        #group_by  
+        #std_err   
+        , filter="Species == \"Red Snapper\""
+    ),
+    error = function(e) e
+)
+```
+
+
+```{r out.width='100%'}
+tryCatch(
+    plot_dygraph_timeseries(
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/snapper_nmfs.csv",
+        title   = "Annual Commercial Red Snapper Landings in Dollars",
+        y_label = "U.S. Dollars",
+        col_t   = "Year",
+        col_y   = "Dollars"
+        #skip_lines
+        #group_by  
+        #std_err   
+        , filter="Species == \"Red Snapper\""
+    ),
+    error = function(e) e
+)
+```

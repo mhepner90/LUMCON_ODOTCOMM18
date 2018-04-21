@@ -1,0 +1,35 @@
+---
+output:
+html_document:
+self_contained: false
+lib_dir: "libs"
+fig_height: 2
+fig_width: 4
+params:
+element: "black_x5F_mangroves"
+---
+
+```{r, echo=FALSE, message=F, warning=F}
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
+library(infographiq)
+```
+
+<base target="_parent">
+
+
+```{r out.width='100%'}
+tryCatch(
+    plot_dygraph_timeseries(
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/black_mangroves_summarized.csv",
+        title   = "Black Mangrove Percent Cover",
+        y_label = "Mean % Cover",
+        col_t   = "Year",
+        col_y   = "percent_cover_mean"
+        #skip_lines
+        #group_by  
+        #std_err   
+        #filter
+    ),
+    error = function(e) e
+)
+```
