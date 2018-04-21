@@ -1,5 +1,5 @@
 ---
-title: "Louisiana Saltmarsh Ecotone Infographic"
+title: "Louisiana Coastal Marshes Infographic"
 ---
 
 Welcome!
