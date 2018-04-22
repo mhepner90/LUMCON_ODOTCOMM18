@@ -77,6 +77,38 @@ Data reference: CIMS   <https://cims.coastal.louisiana.gov/fulltableexports.aspx
 Species: smooth cordgrass, common reed, saltgrass, saltmeadow cordgrass, turtleweed, needlegrass rush
 ```{r Saltmarsh Vegetation}
 
+saltmarsh = read_csv("prep/data/salt_marsh_vegetation_all_cims.csv") #tibble: 36,567 x 30
+#unique(saltmarsh$Community) "Saline"
+#unique(saltmarsh$Sample_Type) "Random","Transect",Stratified"
+#unique(saltmarsh$Vegetation_Type) "Natural" "Planted" NA
+#unique(saltmarsh$`Plot_Size_(m2)`) 4.00  2.00  1.00  0.25 37.12 25.00  3.00  0.00
+#unique(saltmarsh$In_Out) "Out"  "Both" "In"   NA 
+#unique(saltmarsh$Organization)
+#  [1] "LA DEPT OF NAT RES (CRDT)"                   
+#  [2] "LA DEPT OF NAT RES (CRDNO)"                  
+#  [3] "GEC"                                         
+#  [4] "LA DEPT OF NAT RES (CRDL)"                   
+#  [5] "COASTAL ESTUARY SERVICES LLC"                
+#  [6] "COASTAL PROTECTION AND RESTORATION AUTHORITY"
+#  [7] "GULF ENGINEERS & CONSULTANTS"                
+#  [8] "BIOLOGICAL MONITORING SECTION (NO)"          
+#  [9] "U.S. GEOL SURVEY (USGS)"                     
+# [10] "LA DEPT OF NAT RES (CMDB)"                   
+# [11] "UNIV OF NEW ORLEANS"
+
+saltmarsh_year_transect = saltmarsh %>%
+  mutate(Year = format(as.Date(saltmarsh$Collection_Date, format='%m/%d/%Y'), "%Y")) %>%
+  filter(Sample_Type == "Transect") %>% 
+  select(Year, Sample_Type, Common_Name_As_Originally_Observed, Scientific_Name_As_Currently_Recognized, Percent_Cover_Total) %>%
+  filter(Percent_Cover_Total != "<1") %>%
+  group_by(Year, Common_Name_As_Originally_Observed, Scientific_Name_As_Currently_Recognized) %>%
+  mutate(Percent_Cover_Total = as.numeric(Percent_Cover_Total)) %>% 
+  summarize(percent_cover_mean = mean(Percent_Cover_Total)) %>%
+  mutate(percent_cover_mean =round(percent_cover_mean, 0))
+
+  round(percent_cover_mean)
+  format(percent_cover_mean, digits = 0)
+
 marsh = read_csv("prep/data/vegetation_common_random_cims_cleaned.csv")
 
 vegetation = marsh %>%
