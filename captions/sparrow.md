@@ -1,5 +1,3 @@
-<h2>Seaside sparrows (*Ammodramus maritimus*)</h2>
-
 ## Seaside sparrows (*Ammodramus maritimus*)
 
 Seaside sparrows are the most saltmarsh-dependent songbird species in North America. They are considered a species of conservation concern across their range due to coastal land loss. Louisiana populations are year-round saltmarsh residents, where they eat seeds, insects, and even small crabs. They nest in *Spartina alterniflora* and other marsh grasses, and their nests sometimes flood during high spring tides or storm events.
