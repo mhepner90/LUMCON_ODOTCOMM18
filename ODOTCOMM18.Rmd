@@ -108,16 +108,21 @@ saltmarsh_year_transect = saltmarsh %>%
 
 write_csv(saltmarsh_year_transect, "prep/data/saltmarsh_year_transect.csv")
 
-spartina_transecrt = saltmarsh_year_transect %>%
+saltmarsh_year_transect = read_csv("prep/data/saltmarsh_year_transect.csv")
+
+spartina_transect = saltmarsh_year_transect %>%
   filter(Common_Name_As_Originally_Observed == "smooth cordgrass")
+write_csv(spartina_transect, "prep/data/spartina_transect.csv")
 #ggplot(data =spartina_transecrt, aes(x=Year, y=percent_cover_mean))+geom_point()+ggtitle("Spartina Percent Cover")+ylab("Mean % Cover")
 
-phragmites_trasect = saltmarsh_year_transect%>%
+phragmites_transect = saltmarsh_year_transect%>%
   filter(Common_Name_As_Originally_Observed == "common reed")
+write_csv(phragmites_transect, "prep/data/phragmites_transect.csv")
 #ggplot(data =phragmites_trasect, aes(x=Year, y=percent_cover_mean))+geom_point()+ggtitle("Phragmites Percent Cover")+ylab("Mean % Cover")
 
-black_mangroves_trasect = saltmarsh_year_transect%>%
+black_mangroves_transect = saltmarsh_year_transect%>%
   filter(Common_Name_As_Originally_Observed ==  "black mangrove")
+write_csv(black_mangroves_transect, "prep/data/black_mangroves_transect.csv")
 
 #ggplot(data =black_mangroves_trasect, aes(x=Year, y=percent_cover_mean))+ geom_point()+ggtitle("Black Mangrove Percent Cover")+ ylab("Mean % Cover")
 
