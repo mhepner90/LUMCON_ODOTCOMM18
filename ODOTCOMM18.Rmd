@@ -106,16 +106,26 @@ saltmarsh_year_transect = saltmarsh %>%
   summarize(percent_cover_mean = mean(Percent_Cover_Total)) %>%
   mutate(percent_cover_mean =round(percent_cover_mean, 0))
 
-  round(percent_cover_mean)
-  format(percent_cover_mean, digits = 0)
+write_csv(saltmarsh_year_transect, "prep/data/saltmarsh_year_transect.csv")
+
+spartina_transecrt = saltmarsh_year_transect %>%
+  filter(Common_Name_As_Originally_Observed == "smooth cordgrass")
+#ggplot(data =spartina_transecrt, aes(x=Year, y=percent_cover_mean))+geom_point()+ggtitle("Spartina Percent Cover")+ylab("Mean % Cover")
+
+phragmites_trasect = saltmarsh_year_transect%>%
+  filter(Common_Name_As_Originally_Observed == "common reed")
+#ggplot(data =phragmites_trasect, aes(x=Year, y=percent_cover_mean))+geom_point()+ggtitle("Phragmites Percent Cover")+ylab("Mean % Cover")
+
+black_mangroves_trasect = saltmarsh_year_transect%>%
+  filter(Common_Name_As_Originally_Observed ==  "black mangrove")
+
+#ggplot(data =black_mangroves_trasect, aes(x=Year, y=percent_cover_mean))+ geom_point()+ggtitle("Black Mangrove Percent Cover")+ ylab("Mean % Cover")
 
 marsh = read_csv("prep/data/vegetation_common_random_cims_cleaned.csv")
-
 vegetation = marsh %>%
   select(Year, Common_Name, Scientific_Name, Percent_Cover_Total) %>%
   group_by(Year, Common_Name, Scientific_Name) %>%
   summarize(percent_cover_mean = mean(Percent_Cover_Total))
-
 write_csv(vegetation, "prep/data/vegetation_summarized.csv")
 
 spartina = vegetation %>%
