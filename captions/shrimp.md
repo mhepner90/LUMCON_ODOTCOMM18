@@ -1,4 +1,4 @@
-## Brown (*Farfantepenaeus aztecus*) and White Shrimp (*Litopenaeus setiferus*)
+## Brown (*Farfantepenaeus aztecus*) and White (*Litopenaeus setiferus*) Shrimp 
  
 Shrimp are iconic part of Louisiana culture. While several shrimp species inhabit the Gulf of Mexico, the most commonly fished and economically-important of these are the brown and white shrimp. Both species exhibit similar life histories, spawning in bays and deep offshore waters. Larval shrimp are swept with the tide into coastal marshes and estuaries, where they remain until they are large enough to return to the open waters. In the coastal marshes, these larvae provide an important prey source for many marsh species.
  
