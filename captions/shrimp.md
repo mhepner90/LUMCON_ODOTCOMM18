@@ -1,1 +1,8 @@
-Shrimp 
+## Brown (*Farfantepenaeus aztecus*) and White Shrimp (*Litopenaeus setiferus*)
+ 
+Shrimp are iconic in Louisiana culture. While several shrimp species inhabit the Gulf of Mexico, the most commonly-fished and economically-important of these are the brown and white shrimps. Both species exhibit similar life histories, spawning in bays and deep offshore waters. Larval shrimp are swept with the tide into coastal marshes and estuaries, where they remain until they are large enough to return to the open waters. In the coastal marshes, these larvae provide an important prey source for many marsh species.
+ 
+Annual shrimp harvests can fluctuate widely, as precise environmental conditions are required for shrimp to grow to marketable size. The 2010 Deepwater Horizon oil spill caused a crash so large that the shrimp industry is still recovering from it. While federal waters were reopened to fishing in 2011, some areas of Barataria Bay, one of the most important shrimping locations in Louisiana, were closed until 2015 out of fear of oil contamination. Such closures had major economic impacts on shrimping communities in the region. The spill cost the Gulf of Mexico’s commercial fisheries an estimated $94 million to $1.6 billion. As with other commercial fisheries in the state, shrimp abundance increased rapidly after the spill, possibly due to fisheries closures allowing the depleted populations time to recover.
+ 
+**References**: Graham, L.J., C. Hole, E. Moung-Douglas, S. Sempier, L. Swann, and M. Wilson. 2015. Oil spill science: the Deepwater-Horizon oil spill’s impact on Gulf seafood. MASGP-15-04. (http://masgc.org/oilscience/oil-spill-science-impact-on-gulf-seafood.pdf)
+ 
