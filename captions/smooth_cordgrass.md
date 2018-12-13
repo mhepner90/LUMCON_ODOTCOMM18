@@ -1,1 +1,11 @@
-Smooth Cordgrass 
+## Smooth Cordgrass (*Spartina alterniflora*)
+
+Figure: Percent cover of smooth cordgrass (*Spartina alterniflora*) from Louisiana sampling sites, 1994-2016
+Smooth cordgrass is the most ubiquitous coastal marsh plant in Louisiana, forming the base of the ecosystem’s food web. It provides habitat and food for many coastal marsh species, stabilizes the marsh against land loss from erosion and storm damage, and helps sequester carbon.
+
+More than 350 miles of Louisiana’s coastal marshes were damaged during the 2010 Deepwater Horizon oil spill, increasing already-rapid erosion rates by destabilizing the roots of marsh plants. Extensive die-offs of oiled smooth cordgrass were observed. Although oiled sites had returned to normal functioning 11 months post-spill, areas that had experienced severe erosion due to cordgrass die-offs were unable to recover. Studies into the effects of the Deepwater Horizon spill on smooth cordgrass indicate that oil spills have the potential to accelerate land loss of Louisiana.
+
+**References**: Herbaceous marsh vegetation data compiled from the Coastal Information Monitoring System (CIMS) via the Coastal Protection and Restoration Authority (CPRA) (https://cims.coastal.louisiana.gov/monitoring-data/)
+*CIMS provides geospatial, tabular database and document access to CPRA’s suite of protection and restoration projects, Coastwide Reference Monitoring System (CRMS) stations, the 2017 Master Plan, project scheduling, geophysical data, and coastal community resiliency information.*
+
+Silliman, B. et al. 2012. Degradation and resilience in Louisiana salt marshes after the BP-*Deepwater Horizon* oil spill. PNAS 109:11234-11239: [link] (https://doi.org/10.1073/pnas.1204922109)
