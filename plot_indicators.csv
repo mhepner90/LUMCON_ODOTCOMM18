@@ -3,18 +3,28 @@ Foundation,black_x5F_mangroves,Black Mangrove Percent Cover,NA,Year,percent_cove
 Focal,blue_x5F_crabs,Annual Commercial Blue Crabs Pounds,"Species==""Blue Crab""",Year,Pounds,NA,Pounds,NA,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/crabs_nmfs.csv,NA ,NA ,NA,NA
 Focal,blue_x5F_crabs,Annual Commercial Blue Crabs Dollars,"Species==""Blue Crab""",Year,Dollars,NA,U.S. Dollars,NA,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/crabs_nmfs.csv,NA ,NA ,NA,NA
 Focal,bottlenose_x5F_dolphin,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
-Focal,diamondback_x5F_terrapin,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
+Focal,red_x5F_drum,Commercial Red Drum and Black Drum Landings,NA,Year,Pounds,NA,Pounds,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/drums_nmfs.csv,NA ,NA ,NA,NA
+Focal,red_x5F_drum,Commercial Red Drum and Black Drum Landings,NA,Year,Dollars,NA,U.S. Dollars,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/drums_nmfs.csv,NA ,NA ,NA,NA
 Focal,fiddler_x5F_crabs,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
-Focal,forester_x5F_tern,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
 Invasive,nutria,Annual Nutria Harvest ,NA,Year,Tails_Collected,NA,Number of Tails Collected ,NA,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/nutria_summarized.csv,NA ,NA ,NA,NA
 Invasive,nutria,Estimated Herbivory Damage ,NA,Year,Estimated_Herbivory_Damage_acres,NA,Estimated Herbivory Damage (acres),NA,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/nutria_summarized.csv,NA ,NA ,NA ,NA
 Foundation,oyster_x5F_reef,Annual Commercial Oyster Reef Landings in Pounds,NA,Year,Pounds,NA,Pounds,NA,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/oyster_nmfs.csv,NA ,NA ,NA,NA
 Foundation,oyster_x5F_reef,Annual Commercial Oyster Reef Landings in Dollars ,NA,Year,Dollars,NA,U.S. Dollars,NA,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/oyster_nmfs.csv,NA ,NA ,oyster_reef_caption.Rmd,NA
-Focal,periwinkle_x5F_snails,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
 Invasive,phragmites,Roseau Cane Mean Percent Cover,NA,Year,percent_cover_mean,NA,Mean % Cover,NA,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/phragmites_transect.csv,NA ,NA ,NA,NA
-Focal,red_x5F_drum,Commercial Red Drum and Black Drum Landings,NA,Year,Pounds,NA,Pounds,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/drums_nmfs.csv,NA ,NA ,NA,NA
-Focal,red_x5F_drum,Commercial Red Drum and Black Drum Landings,NA,Year,Dollars,NA,U.S. Dollars,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/drums_nmfs.csv,NA ,NA ,NA,NA
-Indicator,seaside_x5F_sparrow,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
 Focal,shrimp,Annual Commercial Shrimp Pounds,NA,Year,Pounds,NA,Pounds,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/commercialized_shrimp_nmfs.csv,NA ,NA ,NA,NA
 Focal,shrimp,Annual Commercial Shrimp Dollars,NA,Year,Dollars,NA,U.S. Dollars,Species,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/commercialized_shrimp_nmfs.csv,NA ,NA ,NA,NA
 Foundation,smooth_x5F_cordgrass,Smooth Cordgrass Mean Percent Cover,NA,Year,percent_cover_mean,NA,Mean % Cover,NA,https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/spartina_transect.csv,NA ,NA ,NA,NA
+Focal,periwinkle_x5F_snails,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
+Indicator,seaside_x5F_sparrow,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
+Focal,forester_x5F_tern,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
+Focal,diamondback_x5F_terrapin,NA,NA,NA,NA,NA,NA,NA,NA,NA ,NA ,NA,NA
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
