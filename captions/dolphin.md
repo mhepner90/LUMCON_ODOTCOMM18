@@ -1,4 +1,4 @@
-## Bottlenose Dolphins (*Tursiops truncatus truncatus*)
+**Bottlenose Dolphins (*Tursiops truncatus*)**
 
 In the Gulf of Mexico, bottlenose dolphins are split into two distinct groups, coastal and offshore. Coastal bottlenose dolphins are smaller in size than the offshore group, and likely do not interbreed. They are a common saltmarsh resident in Louisiana, where they travel up saltmarsh bayous and canals to fish. Bottlenose dolphins have strong site fidelity and will not leave the area where they’re born. Thus, coastal Louisiana populations are reliant on healthy coastal marshes for survival.
 
