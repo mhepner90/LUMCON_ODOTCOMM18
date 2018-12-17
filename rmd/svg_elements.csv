@@ -1,16 +1,15 @@
 svg,svg_id,label,status_text,status_color,modal_before,modal_after
-saltmarsh.svg,black_x5F_mangroves,Black Mangrove,NA,NA,NA,NA
-saltmarsh.svg,blue_x5F_crabs,Blue Crabs ,NA,NA,NA,NA
-saltmarsh.svg,bottlenose_x5F_dolphin,Bottlenose Dolphin ,NA,NA,NA,captions/dolphin.md
-saltmarsh.svg,diamondback_x5F_terrapin,Diamondback Terrapin ,NA,NA,NA,captions/terrapin.md
-saltmarsh.svg,fiddler_x5F_crabs,Fiddler Crab,NA,NA,NA,captions/fiddlercrab.md
-saltmarsh.svg,forster_X5F_tern ,Forster's Tern ,NA,NA,NA,captions/tern.md
+saltmarsh.svg,mangroves,Black Mangrove,NA,NA,NA,captions/back_mangove.md
+saltmarsh.svg,bluecrabs,Blue Crabs ,NA,NA,NA,captions/blue_crab.md
+saltmarsh.svg,dolphins,Bottlenose Dolphin ,NA,NA,NA,captions/dolphin.md
+saltmarsh.svg,terrapin,Diamondback Terrapin ,NA,NA,NA,captions/terrapin.md
+saltmarsh.svg,fiddlercrabs,Fiddler Crab,NA,NA,NA,captions/fiddlercrab.md
+saltmarsh.svg,tern ,Forster's Tern ,NA,NA,NA,captions/tern.md
 saltmarsh.svg,nutria,Nutria ,NA,NA,NA,captions/nutria.md
-saltmarsh.svg,oyster_x5F_reef,Oyster Reefs ,NA,NA,NA,NA
-saltmarsh.svg,periwinkle_x5F_snails,Periwinkle Snails,NA,NA,NA,captions/snail.md
-saltmarsh.svg,red_x5F_drum,Red and Black Drum,NA,NA,NA,NA
-saltmarsh.svg,red_x5F_snapper,Red Snapper ,NA,NA,NA,NA
-saltmarsh.svg,phragmites,Roseau Cane,NA,NA,NA,NA
-saltmarsh.svg,seaside_x5F_sparrow,Seaside Sparrow ,NA,NA,NA,captions/sparrow.md
-saltmarsh.svg,shrimp,Shrimp ,NA,NA,NA,NA
-saltmarsh.svg,smooth_x5F_cordgrass,Smooth Cordgrass ,NA,NA,NA,NA
+saltmarsh.svg,oysters,Oyster Reefs ,NA,NA,NA,captions/oystser_reef_text.md
+saltmarsh.svg,snails,Periwinkle Snails,NA,NA,NA,captions/snail.md
+saltmarsh.svg,drum,Red and Black Drum,NA,NA,NA,captions/drum.md
+saltmarsh.svg,phragmites,Roseau Cane,NA,NA,NA,captions/roseau.md
+saltmarsh.svg,sparrow,Seaside Sparrow ,NA,NA,NA,captions/sparrow.md
+saltmarsh.svg,shrimp,Shrimp ,NA,NA,NA,captions/shrimp.md
+saltmarsh.svg,cordgrass,Smooth Cordgrass ,NA,NA,NA,captions/smooth_cordgrass.md
