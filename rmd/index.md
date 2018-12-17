@@ -1,5 +1,5 @@
 ---
-title: "Louisiana Coastal Marshes Infographic"
+title: "Louisiana Coastal Marsh Infographic"
 ---
 
 Welcome!

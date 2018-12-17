@@ -1,8 +1,8 @@
-name: "Louisiana Coastal Marshes Infographic"
+name: "Louisiana Coastal Marsh Infographic"
 output_dir: "../docs"
 lib_dir: libs
 navbar:
-  title: "Louisiana Coastal Marshes Infographic"
+  title: "Louisiana Coastal Marsh Infographic"
   left:
     - text: "Home"
       href: index.html

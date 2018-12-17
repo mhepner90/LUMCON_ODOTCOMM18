@@ -8,4 +8,4 @@
 
 # this script assumes you have already installed the infographiq package
 #devtools::install_github('marinebon/infographiq')
-infographiq::create_info_site(site_title = "Louisiana Coastal Marshes Infographic", render_modals = T)
+infographiq::create_info_site(site_title = "Louisiana Coastal Marsh Infographic", render_modals = T)

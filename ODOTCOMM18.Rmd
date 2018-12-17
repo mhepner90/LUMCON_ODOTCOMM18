@@ -173,6 +173,18 @@ Data reference: NMFS Science and Technology
 Snapper Species: Black Snapper, Blackfin Snapper, Gray Snapper, Lane Snapper, Mutton Snapper, Queen Snapper, Red Snapper, Silk Snapper, Vermilion Snapper, Yellowtail Snapper
 Drums: Red Drum, Black Drum 
 ```{r Fish}
-snappers = read_csv("prep/data/snapper_nmfs.csv")
+#snappers = read_csv("prep/data/snapper_nmfs.csv")
 drums = read_csv("prep/data/drums_nmfs.csv")
+```
+
+# Saltmarsh Ecotone Infographic 
+!/usr/bin/env Rscript
+run w/ Rscript like:
+Rscript create_info_site.RCode from marinebon <https://github.com/marinebon/infographiq> 
+this script assumes you have already installed the infographiq package
+devtools::install_github('marinebon/infographiq')
+```{r infographic}
+
+infographiq::create_info_site(site_title = "Louisiana Coastal Marsh Infographic", render_modals = T)
+
 ```

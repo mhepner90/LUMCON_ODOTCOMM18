@@ -15,7 +15,7 @@ library(infographiq)
 ```
 
 <base target="_parent">
-## Diamondback Terrapin (*Malaclemys terrapin*)
+**Diamondback Terrapin (*Malaclemys terrapin*)**
 
 Diamondback terrapins are the only turtles in North America that live exclusively in coastal habitats, and they have many unique adaptations for life in salt water. They are most commonly found in smooth cordgrass-dominated marshes. There, they emerge in early summer to lay eggs in nests dug into sandy dunes. Diamondback terrapins eat mollusks, crabs, and shrimp, and may help keep marshes healthy through consumption of periwinkle snails, which can overgraze smooth cordgrass when populations are left unchecked.
 
