@@ -1,4 +1,4 @@
-## Black Mangrove (*Avicennia germinans*)
+**Black Mangrove (*Avicennia germinans*)**
 
 Figure: Percent cover of black mangrove (*Avicennia germinans*) in Louisiana, 1994-2016
 
