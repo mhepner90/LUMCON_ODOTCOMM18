@@ -1,4 +1,4 @@
-## Nutria (*Myocastor coypus*)
+**Nutria (*Myocastor coypus*)**
 
 Figure 1: Total number of nutria harvested and submitted to the Louisiana Department of Wildlife and Fisheries (November-March) for bounty from 2002-2016 (as represented by tails collected).
 
