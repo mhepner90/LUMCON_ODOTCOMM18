@@ -1,4 +1,4 @@
-**Eastern Oysters (*Crassostrea virginica*)**
+**Eastern Oyster (*Crassostrea virginica*)**
  
 Figure 1: Louisiana’s annual commercial harvest of eastern oyster (*Crassostrea virginica*), represented as total pounds harvested/year, 1950-2016
  
