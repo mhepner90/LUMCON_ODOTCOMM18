@@ -1,4 +1,4 @@
-## Smooth Cordgrass (*Spartina alterniflora*)
+**Smooth Cordgrass (*Spartina alterniflora*)**
 
 Figure: Percent cover of smooth cordgrass (*Spartina alterniflora*) from Louisiana sampling sites, 1994-2016
 Smooth cordgrass is the most ubiquitous coastal marsh plant in Louisiana, forming the base of the ecosystem’s food web. It provides habitat and food for many coastal marsh species, stabilizes the marsh against land loss from erosion and storm damage, and helps sequester carbon.
