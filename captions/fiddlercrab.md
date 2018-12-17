@@ -1,4 +1,4 @@
-## Fiddler Crab (*Minuca* spp)
+**Fiddler Crab (*Minuca* spp.)**
 
 Louisiana’s coastal marshes are home to several species of fiddler crabs of the *Minuca* (formerly *Uca*) genus. Fiddler crabs are marsh ecosystem engineers that shape the environment around them. They live in large colonies, and their densely crowded burrows help aerate the soil. The oxygen the crabs draw into the soil aids respiration of marsh grasses and other plants. Fiddler crabs eat bacteria and decaying plant material, helping keep marsh waters clean. They’re also an important food source for many species.
 
