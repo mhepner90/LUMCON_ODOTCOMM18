@@ -1,4 +1,4 @@
-## Blue Crab (*Callinectes sapidus*)
+**Blue Crab (*Callinectes sapidus*)**
  
 Figure 1: Louisiana’s annual commercial harvest of blue crab (*Callinectes sapidus*), represented as total pounds harvested/year, 1950-2016
  
