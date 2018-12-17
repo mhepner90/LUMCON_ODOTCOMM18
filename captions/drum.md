@@ -1,4 +1,4 @@
-## Red (*Sciaenops ocellatus*) and Black Drum (*Pogonias cromis*)
+**Red (*Sciaenops ocellatus*) and Black Drum (*Pogonias cromis*)**
  
 Figure 1: Louisiana’s annual commercial harvest of red (*Sciaenops ocellatus*) and black (*Pogonias cromis*) drum, represented as total pounds caught/year, 1950-2016
  
