@@ -1,0 +1,20 @@
+---
+output:
+html_document:
+self_contained: false
+lib_dir: "libs"
+fig_height: 2
+fig_width: 4
+params:
+element: "tern"
+---
+
+```{r, echo=FALSE, message=F, warning=F}
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
+library(infographiq)
+```
+
+<base target="_parent">
+# Forster’s Tern (*Sterna forsteri*)
+
+Forster’s terns are a resident species in Louisiana coastal marshes, and plunge dive for fish and small arthropods over open water and canals. They breed colonially in marshes and sometimes nest on mats of floating marsh vegetation or on top of muskrat lodges. Not much is known about the status of this species in Louisiana, although they are a species of conservation concern, representing an opportunity for valuable future research.

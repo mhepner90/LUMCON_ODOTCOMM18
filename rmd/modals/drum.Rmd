@@ -1,0 +1,64 @@
+---
+output:
+html_document:
+self_contained: false
+lib_dir: "libs"
+fig_height: 2
+fig_width: 4
+params:
+element: "drum"
+---
+
+```{r, echo=FALSE, message=F, warning=F}
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
+library(infographiq)
+```
+
+<base target="_parent">
+
+
+```{r out.width='100%'}
+tryCatch(
+    plot_dygraph_timeseries(
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/drums_nmfs.csv",
+        title   = "Commercial Red Drum and Black Drum Landings",
+        y_label = "Pounds",
+        col_t   = "Year",
+        col_y   = "Pounds"
+        #skip_lines
+        , group_by="Species"
+        #std_err   
+        #filter
+    ),
+    error = function(e) e
+)
+```
+
+
+```{r out.width='100%'}
+tryCatch(
+    plot_dygraph_timeseries(
+        csv_tv  = "https://raw.githubusercontent.com/mhepner90/LUMCON_ODOTCOMM18/master/prep/data/drums_nmfs.csv",
+        title   = "Commercial Red Drum and Black Drum Landings",
+        y_label = "U.S. Dollars",
+        col_t   = "Year",
+        col_y   = "Dollars"
+        #skip_lines
+        , group_by="Species"
+        #std_err   
+        #filter
+    ),
+    error = function(e) e
+)
+```
+## Red (*Sciaenops ocellatus*) and Black Drum (*Pogonias cromis*)
+ 
+Figure 1: Louisiana’s annual commercial harvest of red (*Sciaenops ocellatus*) and black (*Pogonias cromis*) drum, represented as total pounds caught/year, 1950-2016
+ 
+Figure 2: Annual commercial value of Louisiana’s red (*Sciaenops ocellatus*) and black (*Pogonias cromis*) drum fisheries, represented by US dollars, 1950-2016
+ 
+Like many important commercial fisheries species in Louisiana, red and black drum use coastal marshes and estuaries as nursery habitat. Adult fish then move to more open waters when large enough to avoid predation, usually around 5 years of age. Both fish species are long lived, with adults living up to 40 years and reaching around 30 pounds. Adult black drum feed mainly on oysters, using specialized teeth in the back of their throat to crush their thick shells. Red drum have more varied diets, with important food items including blue crabs, shrimp, and other fish.
+ 
+Both fish were historically important commercial species, but red drum (or “redfish”) consumption exploded in the 1980s due to the popularization of Creole cuisine by the Louisiana chef Paul Prudhomme. His famous blackened redfish dish became so popular across the country that the red drum population crashed, leading to the federal government officially closing commercial harvest of the species in the Gulf of Mexico in 1987. The population has somewhat rebounded since then, and recreational fishing of red drum is now allowed.
+ 
+**References**: Fisheries data compiled from the NOAA National Marine Fisheries Service Annual Commercial Landing Statistics, via: (https://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/annual-landings/index)

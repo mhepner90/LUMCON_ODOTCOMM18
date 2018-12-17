@@ -1,0 +1,24 @@
+---
+output:
+html_document:
+self_contained: false
+lib_dir: "libs"
+fig_height: 2
+fig_width: 4
+params:
+element: "sparrow"
+---
+
+```{r, echo=FALSE, message=F, warning=F}
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
+library(infographiq)
+```
+
+<base target="_parent">
+## Seaside Sparrow (*Ammodramus maritimus*)
+
+Seaside sparrows are the most saltmarsh-dependent songbird species in North America. They are considered a species of conservation concern across their range due to coastal land loss. Louisiana seaside sparrows are year-round saltmarsh residents, where they eat seeds, insects, and even small crabs. They nest in smooth cordgrass and other marsh grasses, and their nests can sometimes flood during high spring tides, which may be increasing with sea level rise .
+
+Not much was known about seaside sparrow population dynamics before the 2010 Deepwater Horizon oil spill, but efforts are underway to improve monitoring. A post-spill study found that lower seaside sparrow reproductive success in oiled versus unoiled sites could possibly be attributed to direct effects of oil exposure. Feather and crop samples obtained from collected birds indicated that from oil carbon entered lower levels of the food web following the spill, leading to its concentration in the tissues of upper-level predators such as seaside sparrows. These toxins have potential to negatively affect the health of seaside sparrows by increasing incidences of disease. The spill may also have indirectly affected seaside sparrow reproduction by suppressing populations of spiders and other invertebrates, thereby reducing food availability for chicks.
+
+**Reference**: Bonisoli-Alquati, A., P.C. Stouffer, R.E. Turner, S. Woltmann, and S. S. Taylor. 2016. Incorporation of Deepwater Horizon oil in a terrestrial bird. Environmental Research Letters 11. (http://iopscience.iop.org/article/10.1088/1748-9326/11/11/114023)
