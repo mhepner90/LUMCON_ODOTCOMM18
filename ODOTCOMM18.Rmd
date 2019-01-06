@@ -77,8 +77,7 @@ Data reference: CIMS   <https://cims.coastal.louisiana.gov/fulltableexports.aspx
 Species: smooth cordgrass, common reed, saltgrass, saltmeadow cordgrass, turtleweed, needlegrass rush
 ```{r Saltmarsh Vegetation}
 
-saltmarsh = read_csv("prep/data/salt_marsh_vegetation_all_cims.csv") #tibble: 36,567 x 30
-#unique(saltmarsh$Community) "Saline"
+saltmarsh = read_csv("prep/data/salt_marsh_vegetation_all_cims.csv") #tibble: 36,567 x #unique(saltmarsh$Community) "Saline"
 #unique(saltmarsh$Sample_Type) "Random","Transect",Stratified"
 #unique(saltmarsh$Vegetation_Type) "Natural" "Planted" NA
 #unique(saltmarsh$`Plot_Size_(m2)`) 4.00  2.00  1.00  0.25 37.12 25.00  3.00  0.00
@@ -147,6 +146,42 @@ black_mangroves = black_mangroves %>%
   group_by(Year, Common_Name, Scientific_Name) %>%
   summarize(percent_cover_mean = mean(Percent_Cover_Total))
 write_csv(black_mangroves,"prep/data/black_mangroves_summarized.csv")
+
+length(unique(saltmarsh$Scientific_Name_Originally_Observed))
+
+vegetation = saltmarsh_year_transect %>%
+  filter(Common_Name_As_Originally_Observed == "common reed" |
+           Common_Name_As_Originally_Observed == "smooth cordgrass" | 
+           Common_Name_As_Originally_Observed == "black mangrove")
+
+veg_plot =
+  ggplot(vegetation, aes(x=Year))+
+  geom_point(aes(y=percent_cover_mean, 
+             color=Common_Name_As_Originally_Observed, 
+             group = Common_Name_As_Originally_Observed), size =3)+
+  geom_line(aes(y=percent_cover_mean, 
+            color=Common_Name_As_Originally_Observed, 
+            group = Common_Name_As_Originally_Observed))+
+  labs(title="Louisiana Coastal Marsh Vegetation", x="", y="Mean Percent Cover", color=NULL)+
+  scale_color_manual(
+    labels=c("Black mangrove", "Common reed", "Smooth cordgrass"),
+    values=c("red","green","blue"))+
+  scale_x_continuous(limits=c(1997,2017),
+                     breaks=c(1997,1998,1999, 2000,2001,2002,2003,2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017),
+                     labels=c("1997","","1999","","2001","","2003","", "2005","", "2007","", "2009", "", "2011", "", "2013", "", "2015", "", "2017"))+
+  theme_bw() +
+  theme(
+    legend.title = element_blank(),
+    legend.text = element_text(size=12),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.text = element_text(size=12),
+    axis.title.x = element_text(size=12),
+    axis.title.y = element_text(size=12),
+    plot.title = element_text(hjust=0.5),
+    title= element_text(size=14))
+
+ggsave(file="Louisiana_Vegetation_Plot.png", veg_plot, width=8, height=4)
 
 ```
 
