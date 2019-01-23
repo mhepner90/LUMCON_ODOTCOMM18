@@ -1,4 +1,4 @@
-**Brown (*Farfantepenaeus aztecus*), White (*Litopenaeus setiferus*), and Seabob (*Xiphopenaeus Kroyeri*) Shrimp**
+**Brown (*Farfantepenaeus aztecus*), White (*Litopenaeus setiferus*), and Seabob (*Xiphopenaeus kroyeri*) Shrimp**
  
 The volatile nature of the Gulf of Mexico’s shrimp populations shows the value of fisheries closures, particularly following major events such as the 2010 oil spill. Shrimp are iconic in Louisiana culture. While several shrimp species inhabit the Gulf of Mexico, the most commonly-fished and economically-important of these are the brown, white, and seabob shrimps. All these species exhibit similar life histories, spawning in bays and deep offshore waters. Larval shrimp are swept with the tide into coastal marshes and estuaries, where they remain until they are large enough to return to the open waters. In the coastal marshes, these larvae provide an important prey source for many marsh species.
  
