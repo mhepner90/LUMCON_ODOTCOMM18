@@ -154,6 +154,8 @@ vegetation = saltmarsh_year_transect %>%
            Common_Name_As_Originally_Observed == "smooth cordgrass" | 
            Common_Name_As_Originally_Observed == "black mangrove")
 
+#svg("veg_plot.svg", width=8, height=4) #units="in",
+
 veg_plot =
   ggplot(vegetation, aes(x=Year))+
   geom_point(aes(y=percent_cover_mean, 
@@ -180,7 +182,8 @@ veg_plot =
     axis.title.y = element_text(size=12),
     plot.title = element_text(hjust=0.5),
     title= element_text(size=14))
-
+#dev.off()
+ggsave(file="Louisiana_Vegetation_Plot.svg", veg_plot, width=8, height=4)
 ggsave(file="Louisiana_Vegetation_Plot.png", veg_plot, width=8, height=4)
 
 ```
