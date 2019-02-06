@@ -4,9 +4,9 @@ lib_dir: libs
 navbar:
   title: "Louisiana Coastal Marsh Infographic"
   left:
-    - text: "OCEANDOTCOMM"
+    - text: "Home"
       href: index.html
-    - text: "Saltmarsh"
+    - text: "saltmarsh"
       href: saltmarsh.html
   right:
     - icon: fa-info-circle fa-lg
