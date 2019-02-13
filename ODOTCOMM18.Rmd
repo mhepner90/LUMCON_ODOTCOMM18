@@ -7,7 +7,8 @@ output: html_document
 
 # Louisiana Saltmarsh-Mangrove Ecotone Interactive Infographic 
 
-### Developed by Megan Hepner, Paige Byerly, and Bethann Garramon Merkle at [OceanDotComm](https://lumcon.edu/oceandotcomm/), a science commmunication workshop, supported by the Louisiana Universities Marine Consortium (LUMCON). 
+### Developed by Megan Hepner, Paige Byerly, and Bethann Garramon Merkle 
+The [Saltmarsh interactive infographic](https://mhepner90.github.io/LUMCON_ODOTCOMM18/saltmarsh.html) and article published in [American Scientist](https://www.americanscientist.org/article/renewed-hope-for-coastal-marshes-in-louisiana) were developed as a result of [OCEANDOTCOMM](https://lumcon.edu/oceandotcomm/), an ocean science communication event supported by the Louisiana Universities Marine Consortium (LUMCON). The interactive infographic was generated using the Infographiq package (Best B., 2017) developed by the Marine Biodiversity Observation Network (MBON) for the creation of interactive infographics for data-driven storytelling. The infographic was developed by Merkle, with use of vector images from IAN (ian.umces.edu/imagelibrary/).
 
 ### Objective: Develop an interactive infographic of the Louisiana bayou saltmarsh ecotone with enganging narrative to depict what the status and trend of key ecosystem species. 
 
@@ -23,10 +24,9 @@ output: html_document
 | Foundation             | Oyster Reefs         | pounds, dollars       | CIMS    |
 | Foundation             | Marsh grass          | Mean percent cover    | CIMS    |
 | Foundation             | Black Mangrove       | Mean percent cover    | CIMS    |
-| Invasive               | Nutria               | Harvested tail        |         |
+| Invasive               | Nutria               | Harvested tail        | CNCP    |
 | Focal                  | Diamondback Terrapin | NA                    | No data |
 | Focal                  | Bottlenose dolphin   | NA                    | No data |
-| Focal                  | Cocahoe              | NA                    | No data |
 | Focal                  | Fidler crab          | NA                    | No dara |
 | Focal                  | Periwinkle snails    | NA                    | No data | 
 
@@ -48,6 +48,7 @@ library(xts)
 library(RColorBrewer)
 library(geojsonio)
 
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning=FALSE)
 ```
 
 #Blue Crabs 
@@ -216,7 +217,6 @@ drums = read_csv("prep/data/drums_nmfs.csv")
 ```
 
 # Saltmarsh Ecotone Infographic 
-!/usr/bin/env Rscript
 run w/ Rscript like:
 Rscript create_info_site.RCode from marinebon <https://github.com/marinebon/infographiq> 
 this script assumes you have already installed the infographiq package
